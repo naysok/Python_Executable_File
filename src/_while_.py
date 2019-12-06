@@ -2,17 +2,18 @@ print("\n*** APP START ***\n")
 
 
 while True:
-    
-    _f = input("Continue : ")
+    yn = input("Continue(y/n) : ")
 
-    if _f == "q" or _f == "Q":
+    if yn == "n" or yn == "n":
         break
     
-    else:
+    elif yn == "y" or yn == "y":
         print("")
         msg = input("input msg : ")
         print(">>", msg, "\n")
-
+    
+    else:
+        pass
 
 
 print("\n*** APP END ***\n")

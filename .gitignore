@@ -1,6 +1,9 @@
-### OSX
+### MacOS
 .DS_Store
 
+
+### VSCode
+.vscode/
 
 
 ### Virtualenv
@@ -14,3 +17,4 @@
 [Ss]cripts
 pyvenv.cfg
 .venv
+pip-selfcheck.json

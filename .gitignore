@@ -6,6 +6,16 @@
 .vscode/
 
 
+### Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+# Distribution / packaging
+build/
+dist/
+# PyInstaller
+*.spec
+
+
 ### Virtualenv
 ### http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
 .Python
